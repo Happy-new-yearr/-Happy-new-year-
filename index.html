@@ -5,11 +5,10 @@
 <meta content='IE=edge' http-equiv='X-UA-Compatible'/>
   
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
-<script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
 <link rel="stylesheet" href="">
 
 <head>
-<title>Happy Birthday v9</title>
+<title>Happy New Year</title>
 </head>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Itim&display=swap');
@@ -121,7 +120,7 @@ blockquote p:not(#kalimat, #teksnim){display:none;}
        <img src="./assets/pandacoklat.gif" id="ftoAwal"/>
      </div>
 
-     <div id="loveIn">
+    <div id="loveIn">
        <a href="" target="_blank" class='lovein'><svg class='line' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><g transform='translate(2.550170, 3.550158)'><path d='M0.371729633,8.89614246 C-0.701270367,5.54614246 0.553729633,1.38114246 4.07072963,0.249142462 C5.92072963,-0.347857538 8.20372963,0.150142462 9.50072963,1.93914246 C10.7237296,0.0841424625 13.0727296,-0.343857538 14.9207296,0.249142462 C18.4367296,1.38114246 19.6987296,5.54614246 18.6267296,8.89614246 C16.9567296,14.2061425 11.1297296,16.9721425 9.50072963,16.9721425 C7.87272963,16.9721425 2.09772963,14.2681425 0.371729633,8.89614246 Z'></path><path d='M13.23843,4.013842 C14.44543,4.137842 15.20043,5.094842 15.15543,6.435842'></path></g></svg></a>
      </div>
      <p id="ket">Tap Here!</p>
@@ -129,28 +128,23 @@ blockquote p:not(#kalimat, #teksnim){display:none;}
      <div><div id='pergeseran'>
          
         <p><b><img src="./assets/pusn3.gif"/><br>
-            <span>Hello, <span id="namaKamu"></span> 🫢❤️</span>
+            <span>Сайн уу , <span id="namaKamu"></span> 🫢❤️</span>
         </b></p>
         
         <p><b><img src="./assets/bunga2.gif"/><br>
-            <span>Read this message when<br>you're alone 🫣</span>
+            <span>Шинэ он айлчлан ирж буйтай холбогдуулан <br>энэхүү мэндчилгээг хүргэж байна. 🫣</span>
         </b></p>
         
         <p><b><img src="./assets/panah.gif"/><br>
-            <span>Someone's having a birthday! 😜</span>
+            <span>Хүлээн авна уу.😜</span>
         </b></p>
-        
-        <p><b><img src="./assets/pandamuter.gif"/><br>
-            <span class="ft">Happy Birthday! 🥳</span>
-        </b></p>
-
      </div></div>
      
      <div class="dots" id="dots-container"></div>
      <p id="keterangan">Click to Slide! 👉</p>
      
      <img id="gift" src="./assets/1000353758.png" alt="Gift">
-     <p id="teksgift">This is for you! 🫶</p>
+     <p id="teksgift">Энийг чамд! 🫶</p>
      
      <div class="kumpulanstiker">
          <img src="./assets/hearthappy (1).gif" id="fotostiker"/>
@@ -158,7 +152,18 @@ blockquote p:not(#kalimat, #teksnim){display:none;}
      </div>
      <div><blockquote id='bq'>
        <p id="teksnim">Wish You All The Best! 🥳</p>
-       <p id="kalimat"><b>Happy birthday</b>! 💖 Wishing you a long life and always stay sweet. The world can be tiring sometimes, but you must keep your spirit up! 🫶<br><br>If the world feels unfair, you can come to me. Maybe I can't fix everything, but I'll always try to make you feel<br>better 💫<br><br>Once again,<br><span class="ft">Happy Birthday! 🫰💐</span></p>
+       <p id="kalimat"><b>💖✨</b>! <br>
+        <b>
+        Шинэ он айлчлан ирж буй энэ сайхан мөчид чамдаа сэтгэлийн үгээ бичиж байна. Өнгөрсөн жил <br>
+        бидний хувьд инээд хөөр, сургамж, дурсамжаар дүүрэн байлаа. Чи миний хажууд байж, үргэлж <br>
+        дэмжиж, урам өгдөгт үнэхээр их баярлалаа..<br>
+        <br>
+        Шинэ он чамд эрүүл энх, аз жаргал, амжилт бүтээл, биелэх олон мөрөөдлийг авчрах болтугай. <br>
+        Хийхийг хүссэн бүх зүйл чинь зоригтой эхэлж, зүрх сэтгэл чинь үргэлж гэрэлтэй байгаасай гэж хүсэж байна.<br>
+
+        Цаашдаа ч гэсэн бид хамтдаа олон сайхан дурсамж бүтээж, инээж, бие биедээ түшиг тулгуур болж явна гэдэгт итгэлтэй байна.<br>
+        Чи байгаагаараа л гайхалтай шүү.<br>
+      <br>,<br><span class="ft"> Шинэ жилийн мэнд хүргэе !💫</span></p> </b>
      </blockquote></div>
      
    </div>
@@ -204,22 +209,21 @@ totalPesan = totalSlide;
     }
   
   async function initengahan(){
-    ftAwal.style="display:none";loveIn.style="display:none";ket.style="display:none";
+    ftAwal.style="display:none";
+    loveIn.style="display:none";
+    ket.style="display:none";
     Content.style = "opacity:1;margin-top:9vh";
-    
-    var { value: nama } = await swals.fire({
-           title: 'Enter Your Name 🫣🩷', input: 'text',
-       });
-       if(nama && nama.length < 11){
-         window.nama = nama;
-         namaKamu.innerText = nama;
-         namaKamu.style="color:pink";
-         setTimeout(inipesan,200);audio.play();
-         } else {
-           await swals.fire('Oops!', 'Name cannot be empty or more than 10 characters!');
-           inipesan();
-    }
+
+    // Set name automatically
+    nama = "Энх Хишиг"; //hereeeeeeeNAMEEEMEMAENMAENAENAENAENAENAENAENAENANANAMEANENAENMAENAE
+    window.nama = nama;
+    namaKamu.innerText = nama;
+    namaKamu.style="color:pink";
+
+    setTimeout(inipesan, 200);
+    audio.play();
   }
+
   
 aktigeser=0;thisgeser=1;
 document.addEventListener('click', function() {
@@ -256,14 +260,11 @@ document.addEventListener('click', function() {
   }
   
   function kalimatakhir(){
-      new TypeIt("#kalimat", {
-      strings: ["" + katakata], startDelay: 50, speed: 27, cursor: true,
-      afterComplete: function(){
-          kalimat.innerHTML = katakata;
-         setInterval(berjatuhan,200);
-          setTimeout(munculteksnim,300);
-      },}).go();
+    kalimat.innerHTML = katakata;
+    setInterval(berjatuhan,200);
+    setTimeout(munculteksnim,300);
   }
+
   function munculteksnim(){
     teksnim.style="position:relative;opacity:1;transform:scale(1);margin:20px auto";
     setTimeout(jjteksnim,550);
